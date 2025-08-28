@@ -2,8 +2,17 @@ import React from 'react'
 
 const Exercicio1 = () => {
   return (
-    <div>Exercicio1</div>
+    <View style ={styles.container}>
+        <Text>Olá, mundo</Text>
+    </View>
   )
 }
 
+const styles = StyleSheet.create({
+    container: {
+        alignItems: 'center',
+        justifyContent: 'center',
+        padding: 10
+    }
+})
 export default Exercicio1
