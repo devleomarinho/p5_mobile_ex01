@@ -1,6 +1,6 @@
 # Exercícios slide 01
 
-## Exercício 01: Criar um componente funcional que aceita um nome como prop e exibe uma mensagem de saudação.
+### Exercício 01: Criar um componente funcional que aceita um nome como prop e exibe uma mensagem de saudação.
 
 - Solução: Criei um script chamado Exercicio1.js simples que recebe como <props> um nome e utiliza o componente <Text> para exibir na tela. Depois, esse componente é chamado no App.js, e então é executado.
 
@@ -29,7 +29,7 @@ export default Exercicio1;
 ![ex01_print](https://github.com/user-attachments/assets/ec08fa21-aa69-4ec2-95dd-6fe3b97e4a94)
 
 
-## Exercício 02: Implementar um componente Counter que exibe um número (inicialmente 0) e dois botões para incrementar e decrementar o valor. Utilize o hook useState.
+### Exercício 02: Implementar um componente Counter que exibe um número (inicialmente 0) e dois botões para incrementar e decrementar o valor. Utilize o hook useState.
 
 - Solução: Criei um script chamado Exercicio2.js,  que utiliza o hook useState para controlar o estado da variável contador. Os dois botões (incrementar e decrementar), ao serem pressionado (usando a função onPress() ) acionam as respectivas funções que modificar o estado do contador. O número é então exibido na tela. Além disso, estilizei os botões e texto usando o componente StyleSheet() para definir o visual dos elementos.
 
@@ -93,7 +93,7 @@ export default Exercicio2
 ![ex02_print](https://github.com/user-attachments/assets/4eaea7ce-6ea0-4beb-9cb6-04297dd8eb5b)
 
 
-## Exercício 02: Criar um componente que inclui um <TextInput> para entrada de texto e um <Text> para exibir o texto digitado. Use useState para armazenar e atualizar o valor do texto.
+### Exercício 03: Criar um componente que inclui um <TextInput> para entrada de texto e um <Text> para exibir o texto digitado. Use useState para armazenar e atualizar o valor do texto.
 
 - Solução: Criei um componente que utiliza o hook useState para receber um texto através do componente <TextInput> e exibir o texto digitado na tela usando o <Text>. Fiz a estilização usando o StyleSheet para definir os elementos visuais.
 
