@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const Exercicio1 = () => {
+const Exercicio1 = ({ nome }) => {
   return (
     <View style={styles.container}>
-      <Text>Olá, mundo</Text>
+      <Text>Olá, {nome}</Text>
     </View>
   );
 };

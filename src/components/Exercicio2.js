@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, } from 'react-native'
 import React, { useState } from 'react'
-import { Button } from 'react-native-web';
+import { Button } from 'react-native';
 
 const Exercicio2 = () => {
 
@@ -33,13 +33,17 @@ const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    padding: 30,
-    margin: 30,
+    padding: 20,
+    margin: 20,
     borderBlockColor: 'black',
     borderBlockWidth: 5,
   },
    button: {
-    margin: 10,
+    margin: 5,
+    padding: 5,
+    width: '50%',
+    justifyContent: 'center',
+    alignSelf: 'center',
   },
   text: {
     fontSize: 80,
