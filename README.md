@@ -11,7 +11,7 @@ import { View, Text, StyleSheet } from 'react-native';
 const Exercicio1 = ({ nome }) => {
   return (
     <View style={styles.container}>
-      <Text>Olá, {nome}</Text>
+      <Text>Olá, {nome}!</Text>
     </View>
   );
 };
@@ -26,6 +26,23 @@ const styles = StyleSheet.create({
 
 export default Exercicio1;
 ```
+```
+import { View, Text } from 'react-native'
+import React from 'react'
+import Exercicio1 from './src/components/Exercicio1'
+
+
+const App = () => {
+  return (
+    <View>
+      
+      <Exercicio4 nome="Prof. Kelson" />
+    </View>
+  )
+}
+
+export default App
+``` 
 ![ex01_print](https://github.com/user-attachments/assets/ec08fa21-aa69-4ec2-95dd-6fe3b97e4a94)
 
 
