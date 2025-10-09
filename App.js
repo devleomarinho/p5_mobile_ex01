@@ -8,7 +8,7 @@ const App = () => {
   return (
     <View>
       
-      <Exercicio2 />
+      <Exercicio4 />
     </View>
   )
 }
